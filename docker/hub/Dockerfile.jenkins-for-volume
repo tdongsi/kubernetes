@@ -1,4 +1,5 @@
 FROM jenkins:2.19.3
+MAINTAINER dongsi.tuecuong@gmail.com
 
 USER root
 

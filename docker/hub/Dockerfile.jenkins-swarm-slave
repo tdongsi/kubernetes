@@ -1,5 +1,4 @@
 FROM openjdk:8u102-jdk
-
 MAINTAINER dongsi.tuecuong@gmail.com
 
 ENV JENKINS_SWARM_VERSION 2.2
