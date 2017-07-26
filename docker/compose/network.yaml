@@ -4,6 +4,7 @@ services:
     image: tutum/hello-world
     networks:
       - frontend
+      - superbridge
   b:
     image: tutum/hello-world
     networks:
@@ -19,3 +20,5 @@ networks:
     driver: bridge
   backend:
     driver: bridge
+  superbridge:
+    external: true
