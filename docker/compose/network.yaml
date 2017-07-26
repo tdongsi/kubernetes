@@ -4,3 +4,8 @@ services:
     image: tutum/hello-world
   b:
     image: tutum/hello-world
+
+networks:
+  default:
+    driver: bridge
+    
